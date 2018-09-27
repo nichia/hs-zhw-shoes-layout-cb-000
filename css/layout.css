@@ -24,4 +24,37 @@
 
 /* Positioning Classes */
 
+/* .one-third-left { */
+.col-1 {
+  float: left;
+  width: 32%;
+  /* background: #ccc; */
+  /* margin-right: 1%; */
+}
 
+/* .one-third-right { */
+/* .col-2 {
+  float: left;
+  width: 33.33%;
+} */
+
+/* .two-thirds { */
+.col-2 {
+  float: left;
+  width: 66%;
+  /* background: #ccc; */
+  /* margin-right: 1%; */
+}
+
+/* .top-thirds { width: 100%, but block element, so default to 100% and float */
+.col-3 {
+  background: #fff;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
